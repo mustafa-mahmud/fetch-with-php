@@ -7,6 +7,9 @@
 echo $_POST['inp_name'];
 echo $_POST['inp_pass']; */
 
+//any value send by post, use file_get_contents(), unless you will get empty value
+// $test = json_decode(file_get_contents("php://input"));
+
 //if data send by JSON====================
 /* $test = json_decode(file_get_contents("php://input"));
 
